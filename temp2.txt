@@ -1,0 +1,150 @@
+<div class="content-container">
+				<div class="topbar">
+					<ul>
+						<li class="topbar-left-elements"><img class="h20 mtm2" src="./images/calendar.svg" alt=""></li>
+						<li class="topbar-left-elements"><img class="h18 " src="./images/check-square.svg" alt=""></li>
+						<li class="topbar-left-elements"><img class="h16 mt2" src="./images/mail.svg" alt=""></li>
+						<li class="topbar-left-elements"><img class="h20" src="./images/star.svg" alt=""></li>
+						<li class="fgrow"></li>
+						<li><span class="lang valign">English</span></li>
+						<li><img class="h18" src="./images/bell.svg" alt=""></li>
+						<li><img class="h17" src="./images/search.svg" alt=""></li>
+						<li>
+							<div class="tb-profile">
+								<div class="profile-data">
+									<div class="tb-profile-name">
+										Vladyslav H.
+									</div>
+									<div class="tb-profile-online-status">
+										online
+									</div>
+								</div>
+								<div class="photo">
+									<img class="valign" src="./images/profile-pic.png" alt="">
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="task-container">
+					<div class="task-sidebar">
+						<button id="addTaskBtn" class="sidebar-add-task-btn">Add Task</button>
+						<div class="task-sidebar-element">
+							<div class="element-image">
+								<img src="./images/mail.svg" alt="">
+								<span>All</span>
+							</div>
+						</div>
+						<div class="hline">
+
+						</div>
+						<div class="task-sidebar-element">
+							<div class="element-image">
+								<img src="./images/star-sidebar.svg" alt="">
+								<span>Starred</span>
+							</div>
+						</div>
+						<div class="task-sidebar-element">
+							<div class="element-image">
+								<img src="./images/info.svg" alt="">
+								<span>Important</span>
+							</div>
+						</div>
+						<div class="task-sidebar-element">
+							<div class="element-image">
+								<img src="./images/check.svg" alt="">
+								<span>Done</span>
+							</div>
+						</div>
+						<div class="task-sidebar-element">
+							<div class="element-image">
+								<img src="./images/trash.svg" alt="">
+								<span>Trashed</span>
+							</div>
+						</div>
+						<div class="hline">
+
+						</div>
+						<div class="task-sidebar-element">
+							<div class="element-image">
+								<div class="element-circle bggreen">
+
+								</div>
+								<span>Trashed</span>
+							</div>
+						</div>
+						<div class="task-sidebar-element">
+							<div class="element-image">
+								<div class="element-circle bgpurple">
+
+								</div>
+								<span>Trashed</span>
+							</div>
+						</div>
+						<div class="task-sidebar-element">
+							<div class="element-image">
+								<div class="element-circle bgred">
+
+								</div>
+								<span>Trashed</span>
+							</div>
+						</div>
+					</div>
+					<div class="task-content" id="task-content">
+						<div class="task">
+							<div class="task-header">
+								<div>
+									<input type="checkbox" class="visnone" name="name" id="ids">
+									<label class="checkbox" for="ids"></label>
+								</div>
+								<span class="task-header-text">
+									Lorem ipsum dolor sit amet con.
+								</span>
+								<div class="fgrow"></div>
+								<img src="./images/info-task.svg" alt="">
+								<img src="./images/star-task.svg" alt="">
+								<img src="./images/trash-task.svg" alt="">
+							</div>
+							<div class="task-description">
+								Lorem ipsum dolor, adipisicing elit. Odit repellat doloremque eius.
+							</div>
+						</div>
+						<div class="task">
+							<div class="task-header">
+								<div>
+									<input type="checkbox" class="visnone" name="name" id="ids2">
+									<label class="checkbox fgrow" for="ids2"></label>
+								</div>
+								<span class="task-header-text">
+									Lorem ipsum dolor sit amet con.
+								</span>
+								<div class="fgrow"></div>
+								<img src="./images/info-task.svg" alt="">
+								<img src="./images/star-task.svg" alt="">
+								<img src="./images/trash-task.svg" alt="">
+							</div>
+							<div class="task-description">
+								Lorem ipsum dolor, adipisicing elit. Odit repellat doloremque eius.
+							</div>
+						</div>
+						<div class="task">
+							<div class="task-header">
+								<div>
+									<input type="checkbox" class="visnone" name="name" id="ids3">
+									<label class="checkbox" for="ids3"></label>
+								</div>
+								<span class="task-header-text">
+									Lorem ipsum dolor sit amet con.
+								</span>
+								<div class="fgrow"></div>
+								<img src="./images/info-task.svg" alt="">
+								<img src="./images/star-task.svg" alt="">
+								<img src="./images/trash-task.svg" alt="">
+							</div>
+							<div class="task-description">
+								Lorem ipsum dolor, adipisicing elit. Odit repellat doloremque eius.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>

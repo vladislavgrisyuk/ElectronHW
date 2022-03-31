@@ -1,0 +1,136 @@
+<div class="logo">
+				<div class="logo-with-name">
+					<img src="./logo2.svg" alt="logo">
+					<span>Vuesax</span>
+				</div>
+				<div class="circle">
+
+				</div>
+			</div>
+			<div class="sidebar-menu">
+				<div class="sidebar-menu-header">
+					<div class="menu-icon">
+						<img src="./images/home.svg" alt="home-icon">
+					</div>
+					<div class="menu-text">
+						Dashboard
+					</div>
+					<div class="menu-side-icon">
+						<img src="./images/chevron-down.svg" alt="">
+					</div>
+				</div>
+				<div class="sidebar-menu-header sidebar-menu-active">
+					<div class="menu-icon hor-cent">
+						<div class="menu-circle">
+						</div>
+					</div>
+					<div class="menu-text">
+						Analytics
+					</div>
+				</div>
+				<div class="sidebar-menu-header">
+					<div class="menu-icon hor-cent">
+						<div class="menu-circle">
+
+						</div>
+					</div>
+					<div class="menu-text">
+						eCommerce
+					</div>
+				</div>
+			</div>
+			<div class="sidebar-menu">
+				<div class="sidebar-menu-header-label">
+					<div class="menu-text">
+						APPS
+					</div>
+				</div>
+				<div class="sidebar-menu-header">
+					<div class="menu-icon hor-cent">
+						<img src="./images/mail.svg" alt="">
+					</div>
+					<div class="menu-text">
+						Email
+					</div>
+				</div>
+				<div class="sidebar-menu-header">
+					<div class="menu-icon hor-cent">
+						<img src="./images/message-square.svg" alt="">
+					</div>
+					<div class="menu-text">
+						Chat
+					</div>
+				</div>
+				<div class="sidebar-menu-header">
+					<div class="menu-icon hor-cent">
+						<img src="./images/check-square.svg" alt="">
+					</div>
+					<div class="menu-text">
+						Todo
+					</div>
+				</div>
+				<div class="sidebar-menu-header">
+					<div class="menu-icon hor-cent">
+						<img src="./images/calendar.svg" alt="">
+					</div>
+					<div class="menu-text">
+						Calendar
+					</div>
+				</div>
+			</div>
+			<div class="sidebar-menu">
+				<div class="sidebar-menu-header-label">
+					<div class="menu-text">
+						UI Elements
+					</div>
+				</div>
+				<div class="sidebar-menu-header">
+					<div class="menu-icon">
+						<img src="./images/layout.svg" alt="home-icon">
+					</div>
+					<div class="menu-text">
+						Grid
+					</div>
+					<div class="menu-side-icon">
+						<img src="./images/chevron-down.svg" alt="">
+					</div>
+				</div>
+				<div class="sidebar-menu-header">
+					<div class="menu-icon">
+						<img src="./images/droplet.svg" alt="home-icon">
+					</div>
+					<div class="menu-text">
+						Colors
+					</div>
+				</div>
+				<div class="sidebar-menu-header">
+					<div class="menu-icon">
+						<img src="./images/credit-card.svg" alt="home-icon">
+					</div>
+					<div class="menu-text">
+						Card
+					</div>
+					<div class="menu-side-icon">
+						<img src="./images/chevron-down.svg" alt="">
+					</div>
+				</div>
+				<div class="sidebar-menu-header">
+					<div class="menu-icon">
+						<img src="./images/grid.svg" alt="home-icon">
+					</div>
+					<div class="menu-text">
+						Table
+					</div>
+				</div>
+				<div class="sidebar-menu-header">
+					<div class="menu-icon">
+						<img src="./images/archive.svg" alt="home-icon">
+					</div>
+					<div class="menu-text">
+						Components
+					</div>
+					<div class="menu-side-icon">
+						<img src="./images/chevron-down.svg" alt="">
+					</div>
+				</div>
+			</div>

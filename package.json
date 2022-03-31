@@ -1,0 +1,17 @@
+{
+	"name": "electronhw",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"dependencies": {
+		"axios": "^0.26.1",
+		"electron": "^17.2.0",
+		"mongoose": "^6.2.9"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"start": "electron ."
+	},
+	"author": "",
+	"license": "ISC"
+}

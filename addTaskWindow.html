@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./addTaskWindow.css">
+	<title>Document</title>
+	<script src="https://kit.fontawesome.com/05a786f7af.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="close" id="cancel-bar">
+				<i class="fa-solid fa-ban"></i>
+			</div>
+			<div class="header-text">
+				<span>New Task</span>
+			</div>
+		</div>
+		<div class="task-data-container">
+			<div class="header-data">
+				<label for="header">Task header</label><br>
+				<input class="inp" type="text" name="header" id="header">
+			</div>
+			<div class="header-data">
+				<label class="decription" for="desc">Description</label>
+				<i class="fa-solid fa-pencil"></i>
+				<br>
+				<textarea rows="5" size class="inp descr" name="desc" id="desc"></textarea>
+			</div>
+			<div class="fgrow"></div>
+			<div class="buttons">
+				<button class="btn btn-cancel" id="cancel">Close</button>
+				<button class="btn btn-apply" id="save">Apply</button>
+			</div>
+		</div>
+	</div>
+	<div style="-webkit-app-region: no-drag;"></div>
+</body>
+<script>
+	function closeCurrent() {
+		console.log('closeCurrent')
+
+		window.API.CloseAddTaskWindow()
+	}
+
+	function saveTask() {
+		let header = document.getElementById('header').value
+		let desc = document.getElementById('desc').value
+
+		let task = {
+			header: header,
+			description: desc
+		}
+		window.API.ApplyAddingTask(task)
+		window.API.CloseAddTaskWindow()
+	}
+	/*
+		window.API.handleApplyTask((event, value) => {
+			alert('GI');
+			console.log('Some work');
+			event.sender.send('taskApplied', 'Info to main');
+		});
+	*/
+	document.getElementById('cancel').onclick = closeCurrent
+	document.getElementById('cancel-bar').onclick = closeCurrent
+	document.getElementById('save').onclick = saveTask
+</script>
+
+</html>
